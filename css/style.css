@@ -38,7 +38,7 @@ header {
     margin-top: 60px;
 }
 
-hea.site-title {
+header .site-title {
     width: 180px;
     line-height: 1px;
     margin-bottom: 15px;
