@@ -76,14 +76,14 @@ header {
     margin-bottom: 0;
 }
 
-.photo {
+.photo ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 45px;
 }
 
-.photo li {
+.photo ul li {
     width:49%;
     margin-bottom: 15px;
 }
