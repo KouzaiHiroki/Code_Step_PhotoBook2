@@ -132,3 +132,60 @@ header {
     padding: 15px 0;
     text-align: center;
 }
+
+@media screen and (max-width: 1024px) {
+    .inner {
+      padding: 0 20px;
+    }
+  
+    /*-------------------------------------------
+    ヘッダー
+    -------------------------------------------*/
+    header {
+      padding: 0 10px;
+    }
+  
+    /*-------------------------------------------
+    Index
+    -------------------------------------------*/
+    .index {
+      padding: 40px 20px;
+    }
+  
+    /*-------------------------------------------
+    Image
+    -------------------------------------------*/
+    /*
+    画像を縦に並べる
+    */
+    .photo {
+      flex-direction: column;
+    }
+    .photo li {
+      width: 100%;
+      text-align: center;
+    }
+  
+    /*-------------------------------------------
+    Detail
+    -------------------------------------------*/
+    .detailtext {
+      padding: 40px 20px;
+    }
+    /*
+    要素を縦に並べる
+    */
+    .flex {
+      flex-direction: column;
+    }
+    .flex dl {
+      width: 100%;
+      border-right: none;
+      border-bottom: solid 1px #333;
+      padding: 0 0 40px 0;
+    }
+    .flex dt {
+      width: 100%;
+      padding: 40px 0 0 0;
+    }
+  }
