@@ -109,3 +109,26 @@ header {
 .flex dd:last-child {
     margin-bottom: 0;
 }
+
+.detailtext {
+    width:65%;
+    padding-left: 40px;
+}
+
+.detailtext p {
+    margin-bottom: 20px;
+}
+
+.link {
+    color: #333;
+}
+
+.link:hover {
+    opacity: 0.8;
+}
+
+.footer {
+    font-size: 0.625rem;
+    padding: 15px 0;
+    text-align: center;
+}
