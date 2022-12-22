@@ -76,14 +76,36 @@ header {
     margin-bottom: 0;
 }
 
-.photo ul {
+.photo {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 45px;
 }
 
-.photo ul li {
+.photo li {
     width:50%;
     margin-bottom: 15px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex dl {
+    width: 35%;
+    border-right: solid 1px #333;
+    padding-right: 40px;
+}
+
+.flex dt {
+    font-weight: bold;
+}
+
+.flex dd {
+    margin-bottom: 10px;
+}
+
+.flex dd:last-child {
+    margin-bottom: 0;
 }
