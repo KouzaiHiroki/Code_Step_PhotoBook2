@@ -83,7 +83,7 @@ header {
     margin-bottom: 45px;
 }
 
-.photo li {
-    width:49%;
+.photo ul li {
+    width:50%;
     margin-bottom: 15px;
 }
