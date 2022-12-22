@@ -38,13 +38,13 @@ header {
     margin-top: 60px;
 }
 
-.site-title {
+header .site-title {
     width: 180px;
     line-height: 1px;
     margin-bottom: 15px;
   }
 
-.site-title a {
+header .site-title a {
     display: block;
 }
 
